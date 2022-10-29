@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Edu+TAS+Beginner:wght@700&family=Montserrat&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');.cards:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.05);
+    
+}
+.card-title{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.card-body{
+    font-family: 'Ubuntu', sans-serif;
+
+}

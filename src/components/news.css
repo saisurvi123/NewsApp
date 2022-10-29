@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Edu+TAS+Beginner:wght@700&family=Montserrat&family=Playfair+Display&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
-
-.nav-link:hover {
-    background-color: darkgoldenrod;
-    transform: rotate(360deg);
-}
-
-.nav-link {
-    font-size: 1.25rem;
+.my_header{
     font-family: 'Montserrat', sans-serif;
-
-}
-
-.navbar-brand {
-    color: darkgoldenrod;
-    font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
-
+    font-size: 2.5rem;
 }

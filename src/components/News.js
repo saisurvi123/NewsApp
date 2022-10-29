@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NewItem from "./NewItem";
 import Spinner from "./Spinner";
+import './news.css'
 
 export class News extends Component {
   data = {};
@@ -49,7 +50,7 @@ export class News extends Component {
     // const [topic]=this.props;
     return (
        <div className="container my-5">
-        <h2 className="text-center"> {this.props.category!='general'?this.props.category:"Trending"} news</h2>
+        <h2 className="text-center my_header"> {this.props.category!='general'?this.props.category:"Trending"} news</h2>
         {this.state.loading && <Spinner/>}
         <div className="row my-5">
           {this.state.articles?.map((element) => {
