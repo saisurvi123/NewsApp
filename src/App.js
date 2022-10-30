@@ -15,8 +15,7 @@ export default class
     return (
       <Router>
       <Navbar/>
-      {/* <News sz="10" country="in" category="business" /> */}
-      {/* by giving key it will remount again */}
+     
       <Routes>
           <Route exact path="/business" element={<News key="business" sz="10" country="in" category="business" />}/>
           <Route exact path="/entertainment" element={<News key="enter" sz="10" country="in" category="entertainment" />}/>
