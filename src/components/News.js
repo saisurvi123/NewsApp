@@ -77,40 +77,10 @@ export class News extends Component {
     // const [topic]=this.props;
     return (
       <>
-        {(
-          <div className="container">
-            <div
-              id="carouselExampleSlidesOnly"
-              className="carousel slide"
-              data-ride="carousel"
-            >
-              {this.state.articles.map((element) => {
-                console.log("hello motto");
-                return (
-                  <div className="carousel-inner">
-                    <div className="carousel-item ">
-                      <img
-                        className="d-block w-100"
-                        src={element.urlToImage}
-                        alt="First slide"
-                      />
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>kldfjglkes.tgls</h5>
-                        <p>kasdnlllllllllllllllllllllf</p>
-                    <h1> hello saikiran</h1>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-              
-            </div>
-          </div>
-        )}
         <div className="container my-5">
           <h2 className="text-center my_header">
             {" "}
-            {this.props.category != "general"
+            {this.props.category !== "general"
               ? this.props.category
               : "Trending"}{" "}
             news
@@ -118,7 +88,8 @@ export class News extends Component {
           {this.state.loading && <Spinner />}
           <div className="row my-5">
             {this.state.articles?.map((element) => {
-             
+              
+
               return (
                 !this.state.loading && (
                   <div className="col col-md-4">
